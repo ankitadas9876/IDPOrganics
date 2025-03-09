@@ -10,5 +10,15 @@ A Study of buried Interplanetary Dust Particle Organics on Mars and Implications
 
 Five python scripts to calculate Organic burial at locations: Gale Crater, Arabia Terra, Schiaparelli Crater, Juventae Chasma, and Global Mars.
 
-⋅⋅* 
+### Files
+1. daytemp.txt - avergage day time temperatures at Gale Crater in Kelvin (Smith et al., 2016)
+2. daytemp_arabia.txt - average day time temperatures at Arabia Terra in Kelvin (Source: Mars Climate Database (Forget et al.,
+1999; Madeleine et al. 2011; Milllour et al., 2018))
+
+3. daytemp_schiaparelli.txt - average day time temperature at Schiaparelli crater (Mars Climate Database)
+4. daytemp_juventae.txt - average day time temperature at Juventae chasma (Mars Climate Database)
+5. tempdata.txt - average day temp data at different latitudes on Mars (Mars Climate Database)
+6. uvadata.txt, uvbdata.txt, uvcdata.txt - UVA, UVB, and UVC flux on Mars [solar longitude, latitude, flux ] (Source: Smith & Moores 2020 Model)
+7. normalizeddust.txt - normalized dust deposition at lat/long in microns (data initially taken from Mars Climate Database https://www-mars.lmd.jussieu.fr/mcd_python/)
+8. normalizeddust_kg.txt - normalized dust deposition at lat/long in kg/m2
 
