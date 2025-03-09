@@ -20,5 +20,10 @@ Five python scripts to calculate Organic burial at locations: Gale Crater, Arabi
 5. tempdata.txt - average day temp data at different latitudes on Mars (Mars Climate Database)
 6. uvadata.txt, uvbdata.txt, uvcdata.txt - UVA, UVB, and UVC flux on Mars [solar longitude, latitude, flux ] (Source: Smith & Moores 2020 Model)
 7. normalizeddust.txt - normalized dust deposition at lat/long in microns (data initially taken from Mars Climate Database https://www-mars.lmd.jussieu.fr/mcd_python/)
-8. normalizeddust_kg.txt - normalized dust deposition at lat/long in kg/m2
+8. normalizeddust_kg.txt - normalized dust deposition at lat/long in kg/m2 (Mars Climate Database)
+
+## Equations used for Organic carbon UV photolysis reactions
+Refer to Schuerger et al., 2012
+Schuerger, A. C., Moores, J. E., Clausen, C. A., Barlow, N. G., & Britt, D. T. (2012). Methane from UV-irradiated carbonaceous chondrites under simulated Martian conditions. Journal of Geophysical Research: Planets, 117(E8), n/a-n/a https://doi.org/10.1029/2011je004023
+
 
